@@ -14,7 +14,7 @@ And I will try to accomplish my goal.
    * Bootstrap
 
 1. ### Code examples:  
-  * product output  
+**product output**
 ```PHP
 <div id="block-tovar-grid">
 <?php
@@ -53,11 +53,14 @@ if (pg_num_rows($resault) > 0)
     while ($row  = pg_fetch_array($resault) );
 }
 </div>
-```  
+```
 1. My projects  lists in group in vk. I created it during the period from 2016 to 2017.  For example some  simple sites - s cold-storage maintenance, home renovation. My graduation work is  
 online store developmentstore.[Link of group:](https://vk.com/website_create_samara)    
 1. 
-1. 
+   *Baccalaureate:* Information security in Samara State Aerospace University  
+   *Magistrates:* Mathematical modeling and information security in Samara State Aerospace University.
+   *Refresher courses:* SQL\PL/SQL
+1. My english level is B1. 
 
 
 
