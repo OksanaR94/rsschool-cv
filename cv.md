@@ -18,13 +18,10 @@ And I will try to accomplish my goal.
 ```
 <div id="block-tovar-grid">
 <?php
-
 $resault  = pg_query($link,"SELECT * FROM table_products  limit $num offset $start");
 if (pg_num_rows($resault) > 0)
-{
-    $row = pg_fetch_array($resault);
+{  $row = pg_fetch_array($resault);
     do{
-       # Подгон размера картинки 
       if ($row["image"] != "" && file_exists("./uploads_img/".$row["image"]) ) 
       {
         $img_path = './uploads_img/'.$row["image"];
@@ -42,27 +39,23 @@ if (pg_num_rows($resault) > 0)
         $width = 110;;
         $height = 110;
       } 
-        
         echo '
         <li><div class="block-images-grid" > 
         <img src="'.$img_path.'" width="'.$width.'" height="'.$height.'" /></div>
         <p class="style-title-grid"><a href=""> '.$row["title"].'  </a> </p>
         <a  class="add-cart-style-grid" >
         <form  metod="get" action="include/addtocart.php">
-        
         <input type="submit" name="d_submit" id="d_submit" value="'.$row['products_id'].'" /></form>
-        
         </a>
-        <p class="style-price-grid"><strong> '.$row["price"].'</strong> руб</p>
-        <div class="mini-features">
-        '.$row["mini_features"].' </div> </li> ';
-        ;
+        <p class="style-price-grid"><strong> '.$row["price"].'</strong></p>
+        </li> ';;
     }
     while ($row  = pg_fetch_array($resault) );
 }
 </div>
 ```  
   * Form registration 
+
 ```
 div id="block-form-registration">
 <ul id="form-registration">
@@ -99,9 +92,8 @@ div id="block-form-registration">
 online store developmentstore.  
 [Link of group:](https://vk.com/website_create_samara)    
 
-1. Baccalaureate: Information security in Samara State Aerospace University  
-   Magistrates: Mathematical modeling and information security in Samara State Aerospace University
-   
+1. 
+
 1. 
 
 
