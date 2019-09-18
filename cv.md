@@ -15,7 +15,7 @@ And I will try to accomplish my goal.
 
 1. ### Code examples:  
 **product output**
-''''PHP
+'''PHP
 <div id="block-tovar-grid">
 <?php
 $resault  = pg_query($link,"SELECT * FROM table_products  limit $num offset $start");
@@ -53,7 +53,7 @@ if (pg_num_rows($resault) > 0)
     while ($row  = pg_fetch_array($resault) );
 }
 </div>
-''''
+'''
 1. My projects  lists in group in vk. I created it during the period from 2016 to 2017.  For example some  simple sites - s cold-storage maintenance, home renovation. My graduation work is  
 online store developmentstore.  [Link of group:](https://vk.com/website_create_samara)    
 1. 
