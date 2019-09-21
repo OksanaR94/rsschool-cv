@@ -61,7 +61,7 @@ online store developmentstore. [Link of group:](https://vk.com/website_create_sa
    **Baccalaureate:** Information security in Samara State Aerospace University  
    **Magistrates:** Mathematical modeling and information security in Samara State Aerospace University.  
    **Refresher courses:** SQL and PL/SQL
-8. My english level is B1. I studied english in school and universit
+8. My english level is B1. I studied english in school and university
 
 
 
