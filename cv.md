@@ -1,21 +1,20 @@
 # **Resume**
 
 1. **Antonova Oksana**
-1. ### Contact Info:  
+2. ### Contact Info:  
     **phone:** +79277081869  
     **email:** Oksana.Rytova@yandex.ru  
-1. **About**
-*Good afternoon. My name's Oksana.* I began to study html and css for writing a graduation work in the last year of university. I created some simple sites after university for practics. My current job is not related to site development, but now I understood that I want to switched career and work a web developer. I know that I will have to work hard for improving my skills.
+3. **About**
+Good afternoon. My name's Oksana. I began to study html and css for writing a graduation work in the last year of university. I created some simple sites after university for practics. My current job is not related to site development, but now I understood that I want to switched career and work a web developer. I know that I will have to work hard for improving my skills.
 And I will try to accomplish my goal.
-1. ### My Skills:
+4. ### My Skills:
    * HTML, CSS
    * SQL, PL\SQL
    * ORACLE, PostgreSQL
    * PHP
    * Bootstrap
 
-1. ### Code examples:  
-**product output**
+5. ### Code examples:  
 
 ```PHP
 <div id="block-tovar-grid">
@@ -56,13 +55,13 @@ if (pg_num_rows($resault) > 0)
 }
 </div>
 ```
-1. My projects  lists in group in vk. I created it during the period from 2016 to 2017.  For example some  simple sites - s cold-storage maintenance, home renovation. My graduation work is  
-online store developmentstore.  [Link of group:](https://vk.com/website_create_samara)    
-1. 
-   *Baccalaureate:* Information security in Samara State Aerospace University  
-   *Magistrates:* Mathematical modeling and information security in Samara State Aerospace University.
-   *Refresher courses:* SQL and PL/SQL
-1. My english level is B1. 
+6. My projects  lists in group in vk. I created it during the period from 2016 to 2017.  For example some  simple sites - s cold-storage maintenance, home renovation. My graduation work is  
+online store developmentstore. [Link of group:](https://vk.com/website_create_samara)    
+7. 
+   **Baccalaureate:** Information security in Samara State Aerospace University  
+   **Magistrates:** Mathematical modeling and information security in Samara State Aerospace University.  
+   **Refresher courses:** SQL and PL/SQL
+8. My english level is B1. I studied english in school and universit
 
 
 
