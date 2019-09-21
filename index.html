@@ -24,7 +24,111 @@
 
     </header>
 
+<div class="main">
+
+<article>
+    <h3>1. Antonova Oksana</h3>
+    <figure class="pic">
+        <img src="pic.png" alt="Photo" width="210" height="340">
+        <figcaption>Me</figcaption>
+  </figure>
+</article>
+
+<article id="Contact">
+    <h3>2. My contact:</h3>
+    <p><strong>phone:</strong> +79277081869</p>
+    <p><strong>email:</strong> Oksana.Rytova@yandex.ru</p>
+</article>
+
+
+<article>
+    <h3 id="About">3.About</h3>  
+     <p> Good afternoon. My name’s Oksana. I began to study html and css for writing a graduation work in the last year of university. 
+            I created some simple sites after university for practics.
+             My current job is not related to site development, but now I understood that I want to switched career and work a web developer. 
+             I know that I will have to work hard for improving my skills. And I will try to accomplish my goal.
+            </p>
+    </article>
+
+
+    <article id="Skills">
+            <h3>4. My Skills:</h3>
+           <ul>
+              <li> HTML, CSS</li>
+              <li>SQL, PL\SQL</li>
+              <li>ORACLE, PostgreSQL</li>
+              <li> PHP</li>
+              <li>Bootstrap</li>
+           </ul>            
+    </article>
+        
+    
+    <article id="Code">
+            <h3>5. Code examples:</h3>
+            <xmp><div id="block-tovar-grid">
+                ?php
+                $resault  = pg_query($link,"SELECT * FROM table_products  limit $num offset $start");
+                if (pg_num_rows($resault) > 0)
+                {  $row = pg_fetch_array($resault);
+                    do{
+                      if ($row["image"] != "" && file_exists("./uploads_img/".$row["image"]) ) 
+                      {
+                        $img_path = './uploads_img/'.$row["image"];
+                        $max_width = 200;
+                        $max_height = 200;
+                        list($width, $height)= getimagesize($img_path);
+                        $ratioh = $max_height/ $height;
+                        $ratiow =  $max_width/$width;
+                        $ratio = min($ratioh,$ratiow);
+                        $width = intval($ratio*$width);
+                        $height = intval($ratio*$height);
+                      }else
+                      {
+                        $img_path = "./images/no-image.png";
+                        $width = 110;;
+                        $height = 110;
+                      } 
+                        echo "
+                        <li><div class="block-images-grid" > 
+                        <img src="'.$img_path.'" width="'.$width.'" height="'.$height.'" /></div>
+                        <p class="style-title-grid"><a href=""> '.$row["title"].'  </a> </p>
+                        <a  class="add-cart-style-grid" >
+                        <form  metod="get" action="include/addtocart.php">
+                        <input type=" " name="d_submit" id="d_submit" value="'.$row['products_id'].'" /></form>
+                        </a>
+                        <p class="style-price-grid"><strong> '.$row["price"].'</strong></p>
+                        </li> ";;
+                    }
+                    while ($row  = pg_fetch_array($resault) );
+                }
+                </div>
+           php>
+            </xmp>
+        </article>
+        
+ 
+    <article id="Experience">
+        <h3>6. Experience</h3>
+        <p>My projects lists in group in vk. I created it during the period from 2016 to 2017. For example some simple sites - s cold-storage maintenance, home renovation. My graduation work is
+                online store developmentstore  <a href="https://vk.com/website_create_samara">Link of group:</a></p>
+                
+     </article> 
+     
+     
+     <article id="Education">
+            <h3>7. Education</h3>
+            <p><strong>Baccalaureate: </strong>Samara State Aerospace University, Information security</p>
+            <p><strong>Magistrates: </strong>Samara State Aerospace University, Mathematical modeling and information security</p>
+            <p><strong>Refresher courses: </strong>SQL and PL/SQL</p>  
+            </article>
+     <article id="English">
+        <h3>8. English</h3>
+         <p>My english level is B1. I studied english in school and university</p>
+     </article>  
 </div>
+
+</div>
+
 
   </body>
 </html>
